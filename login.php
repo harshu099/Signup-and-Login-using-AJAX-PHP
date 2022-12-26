@@ -1,3 +1,9 @@
+<?php
+require 'function.php';
+if(isset($_SESSION["id"])){
+    header("Location: index.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +24,9 @@
         </div>
         <div>
         <button type="button" id="submit_btn" onclick="submitData();">Login</button>
+        </div>
+        <div>
+            <a href="signup.php">Go To Register</a>
         </div>
 </form>
 
