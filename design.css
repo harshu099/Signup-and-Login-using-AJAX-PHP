@@ -1,0 +1,59 @@
+body {
+    background-image:    url(bg1.jpg);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    /* background-position: center center;*/
+}
+#heading{
+    background-color: #699de0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 12px;
+}
+#signup_form{
+    display: block;
+    margin: auto;
+    width: 33%;
+}
+#signup_form div{
+    display: block;
+    margin: auto;
+    width: 33%;
+    padding: 8px;
+    font-size: 18px;
+}
+#login_form{
+    display: block;
+    margin: auto;
+    width: 33%;
+}
+#login_form div{
+    display: block;
+    margin: auto;
+    width: 33%;
+    padding: 8px;
+    font-size: 18px;
+}
+a{
+    font-weight: bold;
+    color:#1c539c;
+}
+a:hover{
+    font-weight: bold;
+    color:#041a36;
+}
+button{
+    background-color: #d1d1d1;
+    border-radius: 16px;
+    padding: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #7ca4d9;
+    color: white;
+    cursor: pointer;
+}
