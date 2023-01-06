@@ -17,7 +17,7 @@ if(isset($_SESSION["id"])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-image: url('bg2.pjg');">
     <h1>Welcome <?php echo($user["name"]) ?></h1>
     <a href="logout.php">Logout</a>
 </body>

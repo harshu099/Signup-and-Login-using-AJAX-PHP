@@ -4,14 +4,12 @@
 <script>
     function submitData() {
         $(document).ready(function() {
-            // alert("hello");
             var data = {
                 name: $("#name").val(),
                 username: $("#username").val(),
                 password: $("#password").val(),
                 action: $("#action").val()
             };
-            // alert(name);
             $.ajax({
                 url: "./function.php",
                 type: 'post',

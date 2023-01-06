@@ -20,7 +20,7 @@ if (isset($_POST["action"])) {
             } else {
                 $sql = "INSERT INTO `user_table`(`id`,`name`, `username`, `password`) VALUES ('','$name','$username','$password')";
                 $result = mysqli_query($conn, $sql);
-                echo ("register succes");
+                echo ("register success");
             }
         }
     } elseif ($_POST["action"] == "login") {
